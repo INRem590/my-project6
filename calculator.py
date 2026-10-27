@@ -6,5 +6,5 @@ def multiply(a: float, b: float) -> float:
     return a * b
 def divide(a: float, b: float) -> float:
     if b == 0:
-        raise ValueError("Деление на ноль недопустимо!")
+        raise ValueError("Ошибка! Деление на ноль недопустимо.")
     return a / b
